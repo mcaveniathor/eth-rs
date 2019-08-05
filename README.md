@@ -7,5 +7,5 @@ validate_eth_address returns whether or not a provided Ethereum hexadecimal addr
 eth_checksum_encode encodes an ethereum address according to the specification laid out in EIP 55 (https://github.com/ethereum/EIPs/blob/master/EIPS/eip-55.md) so that it it is possible to verify that it is a valid address.
 
 ## Dependencies
-rust-crypto
+rust-crypto,
 std::u32
